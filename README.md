@@ -12,5 +12,3 @@ and contact information.
 - Responsive sections
 - Clean UI design
 
-## Live Demo
-(Add your deployed link here later)
