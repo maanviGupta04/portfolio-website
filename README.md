@@ -1,2 +1,16 @@
-# portfolio-website
-Portfolio Website is a personal one-page website built using HTML and CSS to showcase my skills, projects, and contact details, reflecting my hands-on experience with frontend fundamentals.
+# Portfolio Website
+
+A personal one-page portfolio website showcasing my skills, projects,
+and contact information.
+
+## Tech Stack
+- HTML
+- CSS
+
+## Features
+- One-page layout
+- Responsive sections
+- Clean UI design
+
+## Live Demo
+(Add your deployed link here later)
