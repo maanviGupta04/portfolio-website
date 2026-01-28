@@ -10,11 +10,11 @@
     <title>Maanvi Gupta | Frontend Developer</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <header class="navbar">
-      <!-- <img src="roses.jpg" alt=""> -->
-      <h1 class="logo">Maanvi Umakant Gupta</h1>
 
+  <body>
+   
+    <header class="navbar">
+      <h1 class="logo">Maanvi Gupta</h1>
       <nav>
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
@@ -22,32 +22,31 @@
         <a href="#contact">Contact</a>
       </nav>
     </header>
-
-    <section class="hero">
+>
+    <section class="hero" id="port">
       <h2>Hi, I'm Maanvi</h2>
       <p>Aspiring Frontend Developer</p>
     </section>
 
     <div class="separation"></div>
-    <div class="container about" id="about">
+
+    <!-- ABOUT -->
+    <section class="container about" id="about">
       <div class="mytext">
-        <h2>About me</h2>
+        <h2>About Me</h2>
         <p>
           Hello! I’m Maanvi Gupta, an aspiring Frontend Developer with a passion
           for creating clean, responsive, and user-friendly websites. I enjoy
           turning ideas into interactive web experiences using HTML, CSS, and
           JavaScript. Currently, I’m exploring web development projects to
-          strengthen my skills and build a strong portfolio. I love learning new
-          technologies, experimenting with design, and continuously improving my
-          craft to create websites that are not only functional but also
-          visually appealing.
+          strengthen my skills and build a strong portfolio.
         </p>
       </div>
-      <div class="myimg"><img src="me.jpeg" alt="" /></div>
-    </div>
+    </section>
 
     <div class="separation"></div>
 
+    <!-- SKILLS -->
     <section class="skills" id="skills">
       <h2>My Skills</h2>
 
@@ -76,6 +75,8 @@
     </section>
 
     <div class="separation"></div>
+
+    <!-- PROJECTS -->
     <section class="projects" id="project">
       <h2>My Projects</h2>
 
@@ -83,49 +84,59 @@
         <div class="project-card">
           <h3>Restaurant Website</h3>
           <p>
-            A responsive restaurant website built using HTML and CSS with a
-            clean UI and smooth layout.
+            A static responsive restaurant website built using HTML and CSS,
+            featuring a clean layout and modern design.
           </p>
           <div class="project-links">
-            <a href="resto-web/" class="btn" target="_blank">Live Demo</a>
-            <a href="#" class="btn outline">Code</a>
+            <a href="resto-web/" class="btn" target="_blank">
+              Live Demo
+            </a>
           </div>
         </div>
 
         <div class="project-card">
           <h3>Portfolio Website</h3>
           <p>
-            My personal portfolio showcasing skills, projects, and contact
-            details.
+            A personal portfolio website showcasing skills, projects, and contact
+            details using HTML and CSS.
           </p>
           <div class="project-links">
-            <a href="#" class="btn" target="_blank">Live Demo</a>
-            <a href="#" class="btn outline">Code</a>
+            <a href="#port" class="btn">Live Demo</a>
           </div>
         </div>
       </div>
     </section>
+
     <div class="separation"></div>
 
+    <!-- CONTACT -->
     <section class="contact-section" id="contact">
       <h2>Contact Me</h2>
+
       <div class="contacts">
         <div class="contact">
           <span>LinkedIn</span>
           <a
             href="https://www.linkedin.com/in/maanvi-gupta-8a9622281"
-            target="_blank"
-            >Visit Profile</a
-          >
+            target="_blank">
+            Visit Profile
+          </a>
         </div>
 
         <div class="contact">
           <span>GitHub</span>
-          <a href="https://github.com/maanviGupta04" target="_blank"
-            >Visit Profile</a
-          >
+          <a
+            href="https://github.com/maanviGupta04"
+            target="_blank">
+            Visit Profile
+          </a>
         </div>
       </div>
     </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <p>© 2026 Maanvi Gupta. Built with HTML & CSS.</p>
+    </footer>
   </body>
 </html>
